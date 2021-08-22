@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Registeration">
+  
+  <parameter name="fName" value="Mohammed"/>
+  <parameter name="sName" value="Imtiaz"/>
+  <parameter name="emailid" value="imti_mohammed@yahoo.com"/>
+   <parameter name="password" value="M000hammedddd12@34"/>
+  
+    <classes>
+      <class name="org.test.Autotest"/>
+    </classes>
+  </test> <!-- Registration -->
+</suite> <!-- Suite -->
